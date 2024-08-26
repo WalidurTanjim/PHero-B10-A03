@@ -23,3 +23,8 @@ ion-icon{
 .ionIcon{
     font-size: 30px;
 }
+.nextProject{
+    background-image: url('./assets/bg.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
