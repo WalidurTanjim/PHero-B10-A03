@@ -23,6 +23,20 @@ ion-icon{
 .ionIcon{
     font-size: 30px;
 }
+.uniqueIcon{
+    font-size: 25px;
+}
+
+.uniqueSection .item{
+    transition: .4s all;
+}
+.uniqueSection .item:hover .uniqueIconDiv{
+    background: #4ADE80;
+    transition: .4s;
+}
+.uniqueSection .item:hover .uniqueIcon{
+    color: #fff;
+}
 .nextProject{
     background-image: url('./assets/bg.jpg');
     background-size: 100% 100%;
