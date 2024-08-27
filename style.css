@@ -37,8 +37,3 @@ ion-icon{
 .uniqueSection .item:hover .uniqueIcon{
     color: #fff;
 }
-.nextProject{
-    background-image: url('./assets/bg.jpg');
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-}
