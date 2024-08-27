@@ -329,20 +329,20 @@
                 <section class="container mx-auto w-full lg:w-[850px] pt-7">
                     <form class="w-full">
                         <div class="grid gap-4 grid-cols-1 md:grid-cols-2 mb-4">
-                            <input type="text" name="fName" id="fName" placeholder="First Name *" required autocomplete="off" class="outline-none text-sm font-medium border border-gray-300 focus:border-gray-400 rounded-md p-2">
+                            <input type="text" name="fName" id="fName" placeholder="First Name *" required autocomplete="off" class="input input-bordered w-full">
 
-                            <input type="text" name="lName" id="lName" placeholder="Last Name *" required autocomplete="off" class="outline-none text-sm font-medium border border-gray-300 focus:border-gray-400 rounded-md p-2">
+                            <input type="text" name="lName" id="lName" placeholder="Last Name *" required autocomplete="off" class="input input-bordered w-full">
                         </div>
 
                         <div class="grid gap-4 grid-cols-1 md:grid-cols-2 mb-4">
-                            <input type="number" name="phone" id="phone" placeholder="Phone Number *" required autocomplete="off" class="outline-none text-sm font-medium border border-gray-300 focus:border-gray-400 rounded-md p-2">
+                            <input type="number" name="phone" id="phone" placeholder="Phone Number *" required autocomplete="off" class="input input-bordered w-full">
 
-                            <input type="email" name="email" id="email" placeholder="Email Address *" required autocomplete="off" class="outline-none text-sm font-medium border border-gray-300 focus:border-gray-400 rounded-md p-2">
+                            <input type="email" name="email" id="email" placeholder="Email Address *" required autocomplete="off" class="input input-bordered w-full">
                         </div>
-                        
-                        <textarea name="message" id="message" rows="5" required autocomplete="off" placeholder="Write your message here *" class="w-full rounded-md outline-none border border-gray-300 focus:border-gray-400 p-2 text-sm font-medium mb-4"></textarea>
 
-                        <button class="outline-none w-full py-2 rounded-full text-sm font-semibold bg-[#9edc5c] hover:bg-[#adee68] active:bg-[#9edc5c] cursor-default flex items-center justify-center">Send Mail <span class="flex items-center justify-center p-1 rounded-full ms-2 transform -rotate-45 bg-black text-white"><ion-icon name="arrow-forward-outline"></ion-icon></span></button>
+                        <textarea name="message" id="message" rows="4" required autocomplete="off" class="textarea textarea-bordered mb-4 w-full" placeholder="Write your message here *"></textarea>
+
+                        <button class="btn w-full rounded-full bg-[#9edc5c] hover:bg-[#adee68] active:bg-[#9edc5c]">Send Mail <span class="flex items-center justify-center p-1 rounded-full ms-2 transform -rotate-45 bg-black text-white"><ion-icon name="arrow-forward-outline"></ion-icon></span></button>
                     </form>
                 </section>
             </section>
